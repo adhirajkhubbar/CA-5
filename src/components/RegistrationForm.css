@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700;800&display=swap");
+body{
+  background-color:rgb(228, 198, 162); /* Change background color */
+
+}
+
+.registration-container {
+  max-width: 400px;
+  margin-top: 150px;
+  margin-left: 40%;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: "Rubik", sans-serif;
+  background-color:rgb(253, 237, 217); /* Change background color */
+  border-radius: 100px;
+
+
+}
+
+h2 {
+  text-align: center; 
+}
+
+.logo-link {
+  text-decoration: none;
+  margin: 0;
+}
+
+.main-content {
+  margin-top: 20px;
+}
+
+.heading {
+  font-size: 20px;
+  margin-bottom: 10px;
+  display: block;
+  text-align: center;
+  color: #d4b6b6;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.input-field {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 30px; /* Change border radius */
+  width: 100%;
+  color: black;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.submit-button {
+  background-color:  RGB(101, 67, 33) ;
+  width: 50%;
+  max-width: 200px;
+  padding: 10px 0px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 8px auto;
+}
+
+.submit-button:hover {
+  background-color:  RGB(101, 67, 33) ;
+}
+
+.registration-message {
+  text-align: center;
+}
+
+.registration-success {
+  color: #2ecc71;
+  margin-bottom: 10px;
+  font-size: 24px;
+  margin-left: 10px;
+
+}
+
+
+@media (max-width: 600px) {
+  .registration-container {
+    max-width: 100%;
+  }
+}
